@@ -1,21 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Legg til drag-event for kortet
+  
+    let dragSource = null;
+  
+  // Legg til drag-event for kortet
     function drag(event) {
       const draggedBox = event.target.closest(".box");
       event.dataTransfer.setData("text/plain", draggedBox.outerHTML);
+      dragSource = event.target; // hmm dette er ikke nødvendig egentlig??
     }
   
     // Legg til drop-event for kolonner
     function drop(event) {
       event.preventDefault();
-      const data = event.dataTransfer.getData("text/plain");
-      const draggedBox = document.createElement("div");
-      draggedBox.innerHTML = data;
-      draggedBox.classList.add("box");
-      draggedBox.draggable = true;
-      draggedBox.ondragstart = drag;
-      draggedBox.addEventListener("click", moveCard);
-  
+
       const existingBox = event.currentTarget.querySelector(".box");
   
       if (existingBox) {
@@ -23,8 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
           existingBox.remove();
       }
   
+      ///TODO: Finnes dragsource egentlig en plass i event objektet?
+
       // Legg til det klonede kortet i kolonnen.
-      event.currentTarget.appendChild(draggedBox);
+      event.currentTarget.appendChild(dragSource);
+      dragSource = null;
   
       event.target.style.opacity = "1";
   }

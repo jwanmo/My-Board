@@ -1,61 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My app</title>
-</head>
-
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="my_board_style.css" />
+<title>Table</title>
 
 <body>
+    <header>
+        <div class="top-bar">
+            <div class="left-links">
+                <div class="logo">My Board</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">My Work</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-links">
+                <ul>
+                    <li class="login"><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
-    <div>
-        Name : <input type="text" id="name"><br>
-        Email: <input type="email" id="email"><br />
-        Password: <input type="password" id="pswHash"><br />
-        <button id="createUserButton">Create User</button>
+    <div class="container">
+        <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="box-header">
+                <h5>To Do <span class="num">0</span></h5>
+                <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+            </div>
+        </div>
+        <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="box-header">
+                <h5>Ready <span class="num">0</span></h5>
+                <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+            </div>
+        </div>
+        <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="box-header">
+                <h5>Doing<span class="num">0</span></h5>
+                <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+            </div>
+        </div>
+        <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="box-header">
+                <h5>Review <span class="num">0</span></h5>
+                <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+            </div>
+        </div>
     </div>
 
-    <script>
+    <footer>
+        <p>&copy; Developed by Jwan Mohammad 2024</p>
+    </footer>
 
-
-
-
-        const createUserButton = document.getElementById("createUserButton");
-
-        createUserButton.onclick = async function (e) {
-
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-            const pswHash = document.getElementById("pswHash").value;
-
-            const user = { name, email, pswHash };
-
-            const respon = await postTo("/user", user);
-
-
-
-
-        }
-
-
-        async function postTo(url, data) {
-            const header = {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(data),
-            };
-
-
-            const respon = await fetch(url, header);
-            return respon;
-        }
-
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.6/dist/flatpickr.min.js"></script>
+    <script src="my_board.js"></script>
 </body>
 
 </html>
