@@ -1,4 +1,4 @@
-import SuperLogger from './modules/SuperLogger.mjs';
+import SuperLogger from './SuperLogger.mjs';
 
 const cardManipulationMiddleware = (req, res, next) => {
     // Log request details
