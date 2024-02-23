@@ -1,42 +1,22 @@
 import fs from "fs/promises";
-import User from "./user.js";
-import SuperLogger from "./SuperLogger.js";
+import User from "./user.mjs";
+import SuperLogger from "./SuperLogger.mjs";
+import { insert } from "./db.mjs";
 
-const logger = new SuperLogger();
 
-export const registerUser = async (email, pswHash, name) => {
+export const registerUser = async (name, email, pswHash) => {
     try {
-        const usersData = await fs.readFile("users.json", "utf-8");
-        const users = JSON.parse(usersData);
 
-        // Check if email already exists
-        if (users.find((user) => user.email === email)) {
-            logger.log("Email already exists. Please choose another one.");
-            return false;
-        }
+        const insertQuery = 'INSERT INTO "user" (name, email, pswhash) VALUES ($1, $2, $3) RETURNING *';
+        const values = [name, email,  pswHash];
 
-        // Add new user
-        const newUser = new User(email, pswHash, name);
-        users.push(newUser);
+        const insertRes = insert(insertQuery, values);
+        
+        SuperLogger.log('Data inserted successfully:' + insertRes);
 
-        await fs.writeFile("users.json", JSON.stringify(users, null, 2));
-
-        logger.log("User registered successfully.");
-        return true;
     } catch (error) {
-        logger.log("Error registering user:", SuperLogger.LOGGING_LEVELS.CRTICAL);
+        SuperLogger.log("Error registering user: " + error, SuperLogger.LOGGING_LEVELS.CRTICAL);
         return false;
     }
 };
 
-// register.mjs
-
-document.addEventListener("DOMContentLoaded", function () {
-    const registerForm = document.getElementById("regForm");
-
-    registerForm.addEventListener("submit", function (event) {
-        event.preventDefault();
-        // Handle registreringen her
-        console.log("Registreringsskjemaet ble sendt");
-    });
-});

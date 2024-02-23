@@ -1,6 +1,5 @@
 import express from 'express' // Express is installed using npm
 import USER_API from './routes/usersRoute.mjs'; // This is where we have defined the API for working with users.
-import cardManipulationMiddleware from './modules/CardManipulationMiddleware.mjs'; // Her here i import middleware.
 
 import SuperLogger from './modules/SuperLogger.mjs';
 // Creating an instance of the server
@@ -35,5 +34,3 @@ server.listen(server.get('port'), function () {
     console.log('server running', server.get('port'));
 });
 
-// Her er middleware to handle card manipulation requests
-server.use(cardManipulationMiddleware);
