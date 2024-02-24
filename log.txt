@@ -1651,3 +1651,6 @@ Data inserted successfully:[object Promise]
 Data :[object Object]
 12:16:44 AM [32mGET[39m /login_register.css
 12:16:44 AM [32mGET[39m /register.js
+1:03:27 AM [32mGET[39m /
+1:03:27 AM [32mGET[39m /my_board_style.css
+1:03:27 AM [32mGET[39m /my_board.js
