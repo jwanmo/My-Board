@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-<link rel="stylesheet" href="my_board_style.css" />
-
-<title>Table</title>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="my_board_style.css">
+    <title>Table</title>
+</head>
 <body>
     <header>
         <div class="top-bar">
@@ -29,42 +29,32 @@
     </header>
 
     <div class="container">
-        <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <div class="box-header">
-                <h5>To Do <span class="num">0</span></h5>
-                <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+            <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box-header">
+                    <h5> <span class="num">0</span></h5>
+                    <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+                </div>
             </div>
-        </div>
-        <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <div class="box-header">
-                <h5>Ready <span class="num">0</span></h5>
-                <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+            <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box-header">
+                    <h5> <span class="num">0</span></h5>
+                    <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+                </div>
             </div>
-        </div>
-        <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <div class="box-header">
-                <h5>Doing<span class="num">0</span></h5>
-                <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+            <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box-header">
+                    <h5> <span class="num">0</span></h5>
+                    <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+                </div>
             </div>
-        </div>
-        <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
-            <div class="box-header">
-                <h5>Review <span class="num">0</span></h5>
-                <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
-            </div>
-        </div>
     </div>
+    
     <footer id="Footer">
         <p>&copy; Developed by Jwan Mohammad 2024</p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.6/dist/flatpickr.min.js"></script>
     <script src="my_board.js"></script>
-    <!--     <script src="my_board.js"></script>
-    <script src="../modules/SuperLogger.mjs"></script>
-    <script src="../modules/user.mjs"></script>
-    <script src="../modules/register.mjs"></script>
-    <script src="../modules/login.mjs"></script> 
-    <script src="../modules/app.mjs"></script> -->
+    <script src="sc.js"></script>
 </body>
-
 </html>

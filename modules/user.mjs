@@ -1,8 +1,9 @@
 class User {
-    constructor(email, pswHash, name) {
+    constructor(email, pswHash, name, city) {
         this.email = email;
         this.pswHash = pswHash;
         this.name = name;
+        this.city = city;
     }
 }
 

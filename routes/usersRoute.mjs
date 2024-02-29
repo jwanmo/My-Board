@@ -28,15 +28,14 @@ USER_API.get('/:id', async (req, res, next) => {
 })
 
 USER_API.post('/', (req, res, next) => {
-
     
-    const { name, email, password } = req.body;
+    const { name, email, password, city } = req.body;
 
     if (name != "" && email != "" && password != "") {
         const user = new User();
         user.name = name;
         user.email = email;
-
+        user.city = city;
         ///TODO: Do not save passwords.
         user.pswHash = password;
 
@@ -44,7 +43,7 @@ USER_API.post('/', (req, res, next) => {
         let exists = false;
 
         if (!exists) {
-            registerUser(user.name, user.email, user.pswHash)
+            registerUser(user.name, user.email, user.pswHash, user.city)
             res.status(HTTPCodes.SuccesfullRespons.Ok).end();
         } else {
             res.status(HTTPCodes.ClientSideErrorRespons.BadRequest).end();
