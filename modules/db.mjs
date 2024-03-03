@@ -1,13 +1,16 @@
 import pkg from 'pg';
 import SuperLogger from "./SuperLogger.mjs";
+import dotenv from 'dotenv';
 const { Pool } = pkg;
 
+dotenv.config();
+
 const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'jwan',
-    password: 'admin',
-    port: 5432,
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_DATABASE,
+    password: process.env.DB_PASSWORD,
+    port: parseInt(process.env.DB_PORT),
 })
 
 export const implement = async (request) => {
