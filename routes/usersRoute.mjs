@@ -28,14 +28,17 @@ USER_API.get('/:id', async (req, res, next) => {
 })
 
 USER_API.post('/', (req, res, next) => {
-    
-    const { name, email, password, city } = req.body;
+    SuperLogger.log("got post request");
+    const { name, email, password, street, city, zipcode, country } = req.body;
 
     if (name != "" && email != "" && password != "") {
         const user = new User();
         user.name = name;
         user.email = email;
+        user.street = street;
         user.city = city;
+        user.zipcode = zipcode;
+        user.country = country;
         ///TODO: Do not save passwords.
         user.pswHash = password;
 
@@ -43,7 +46,7 @@ USER_API.post('/', (req, res, next) => {
         let exists = false;
 
         if (!exists) {
-            registerUser(user.name, user.email, user.pswHash, user.city)
+            registerUser(user.name, user.email, user.pswHash, user.street, user.city, user.zipcode, user.country)
             res.status(HTTPCodes.SuccesfullRespons.Ok).end();
         } else {
             res.status(HTTPCodes.ClientSideErrorRespons.BadRequest).end();
@@ -52,7 +55,6 @@ USER_API.post('/', (req, res, next) => {
     } else {
         res.status(HTTPCodes.ClientSideErrorRespons.BadRequest).send("Mangler data felt").end();
     }
-
 });
 
 USER_API.put('/:id', (req, res) => {
