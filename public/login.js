@@ -1,9 +1,9 @@
 function login() {
-    console.log("login")
+    console.log("login");
     const username = document.getElementById("username");
     const password = document.getElementById("password");
 
-    const url = "http://localhost:8080/login"; // Adjust the URL for your login endpoint
+    const url = "http://localhost:8080/login";
     const data = {
         "username": username.value,
         "password": password.value,
@@ -12,43 +12,44 @@ function login() {
     fetch(url, {
         method: "POST",
         headers: {
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
         },
-        body: JSON.stringify(data)
+        body: JSON.stringify(data),
     })
-        .then(response => {
+        .then((response) => {
             if (!response.ok) {
                 if (response.status === 404) {
-                    // User not found, redirect to the registration page
-                    window.location.href = "register.html"; // Adjust the URL accordingly
+                    window.location.href = "register.html";
                 } else {
                     throw new Error("Network response was not ok");
                 }
+            } else {
+                window.location.href = "index.html";
             }
             return response.json();
         })
-        .then(data => {
-            // Handle the data from the response, e.g., redirect to a dashboard
+        .then((data) => {
             console.log(data);
-            // You can redirect to a dashboard or perform other actions upon successful login
+
+            if (data.token) {
+                console.log("User is logged in");
+            }
         })
-        .catch(error => {
-            // Handle errors
+        .catch((error) => {
             console.error("Error:", error);
         });
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    const loginForm = document.getElementById("loginForm");
 
-    loginForm.addEventListener("submit", function (event) {
-        event.preventDefault(); // Prevent the default form submission
-        login();
-    });
+const loginForm = document.getElementById("loginForm");
 
-    let createUser = document.getElementById("register");
-    createUser.addEventListener("click", function () {
-        // Redirect to the registration page
-        window.location.href = "register.html"; // Adjust the URL accordingly
-    });
+loginForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    login();
 });
+
+let createUser = document.getElementById("register");
+createUser.addEventListener("click", function () {
+    window.location.href = "register.html";
+});
+

@@ -1,12 +1,14 @@
-<link rel="stylesheet" href="login_register.css">
+<link rel="stylesheet" href="./style/login_register.css">
+
+<script src="./login.js"></script>
 
 <main class="container">
     <form id="loginForm">
       <h1 id="title">Login</h1>
-      <input id="username" placeholder="Username" >
+      <input id="username" placeholder="Username" name="username">
       <input id="password" type="password" placeholder="Password">
       <div id="buttonWrapper">
-      <button id="login" type="submit" value="SUBMIT">Login</button>
+      <button id="login" type="submit" onclick="return login()">Login</button>
       <button id="register" type="button">Create user</button>
     </div>
     </form>
