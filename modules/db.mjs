@@ -13,13 +13,14 @@ const pool = new Pool({
     port: parseInt(process.env.DB_PORT),
 })
 
-export const implement = async (request) => {
+export const implement = async (request, values) => {
     let client
     try {
         client = await pool.connect();
-        const dbRes = await client.query(request);
+        const dbRes = await client.query(request, values);
         return dbRes;
     } catch (e) {
+        console.log("DATABASE ERROR: ", e)
         return false;
     } finally {
         if (client) {
@@ -33,9 +34,45 @@ export const insert = async (request, values) => {
     try {
         client = await pool.connect();
         const dbRes = await client.query(request, values);
+
+        
+
         dbRes.rows.forEach(element => {
             SuperLogger.log('Data :' + element);
         });
+        return dbRes;
+    } catch (e) {
+        return false;
+    } finally {
+        if (client) {
+            client.release(); // Release the client back to the pool
+        }
+    }
+}
+
+
+// Add the update function
+export const update = async (request, values) => {
+    let client
+    try {
+        client = await pool.connect();
+        const dbRes = await client.query(request, values);
+        return dbRes;
+    } catch (e) {
+        return false;
+    } finally {
+        if (client) {
+            client.release(); // Release the client back to the pool
+        }
+    }
+}
+
+// Add the remove function
+export const remove = async (request, values) => {
+    let client
+    try {
+        client = await pool.connect();
+        const dbRes = await client.query(request, values);
         return dbRes;
     } catch (e) {
         return false;

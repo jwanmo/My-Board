@@ -1,11 +1,11 @@
 function login() {
     console.log("login");
-    const username = document.getElementById("username");
+    const email = document.getElementById("email");
     const password = document.getElementById("password");
 
-    const url = "http://localhost:8080/login";
+    const url = "/user/login";
     const data = {
-        "username": username.value,
+        "email": email.value,
         "password": password.value,
     };
 
@@ -17,22 +17,25 @@ function login() {
         body: JSON.stringify(data),
     })
         .then((response) => {
-            if (!response.ok) {
+            if (response.status != 200) {
                 if (response.status === 404) {
-                    window.location.href = "register.html";
-                } else {
+                    navigateTo('register');
+                } if (response.status === 401) {
+                    console.log(" email or passowrd not correct!");
+                }
+                else {
                     throw new Error("Network response was not ok");
                 }
-            } else {
-                window.location.href = "index.html";
             }
             return response.json();
         })
         .then((data) => {
-            console.log(data);
-
             if (data.token) {
                 console.log("User is logged in");
+                setLocalStoarge("token", data.token);
+                navigateTo('home');
+                isLoggedIn = true;
+                showHideAuthLinks();
             }
         })
         .catch((error) => {
@@ -42,14 +45,14 @@ function login() {
 
 
 const loginForm = document.getElementById("loginForm");
-
 loginForm.addEventListener("submit", function (event) {
     event.preventDefault();
+    console.log(event, "oooo")
     login();
 });
 
 let createUser = document.getElementById("register");
 createUser.addEventListener("click", function () {
-    window.location.href = "register.html";
+    navigateTo('register');
 });
 
