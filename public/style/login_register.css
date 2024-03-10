@@ -1,63 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-    padding: 0;
-    box-sizing: border-box;
-    justify-content: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-a {
-    text-decoration: none;
+.container, .loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px auto; 
+  background: fixed;/* Centering the container with margin and adding space */
+  background-color: rgb(246, 246, 246);
+  border-radius: 20px;
 }
 
-li {
-    list-style-type: none;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #78909c;
-}
-
-.container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#regForm, #loginForm {
-    max-width: 400px;
-    margin: 0 auto;
+#loginForm, #regForm {
+    width: 100%;
 }
 
 h1#title {
-    text-align: center;
     color: #333;
+    margin-bottom: 20px;
 }
 
 #input input, #loginForm input {
-    width: 100%;
+    width: calc(100% - 0px); /* Fix input width to adapt padding */
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.file-upload {
-    margin-bottom: 15px;
-}
-
-.file-upload label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
 }
 
 #register, #login {
@@ -68,26 +46,37 @@ h1#title {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 #register:hover, #login:hover {
-    background-color: #1976d2;
+    background-color: #165ea8; /* Slightly darker on hover */
 }
 
 #buttonWrapper {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Add space between buttons */
 }
 
-#buttonWrapper button {
-    flex: 1;
-    margin-right: 5px;
-}
-
-
-/* Add more styles as needed */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-    .container {
-        width: 90%; /* Adjust width for smaller screens */
+    .container, .loginContainer {
+      width: 90%;
+      padding: 10px;
     }
-}
+  
+    h1#title {
+      font-size: 24px;
+    }
+  }
+  
+  @media (max-width: 1024px) { /* Tablet adjustments */
+    .container, .loginContainer {
+      width: 85%;
+    }
+  }
+
+
+
+  

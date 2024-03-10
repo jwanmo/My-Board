@@ -12,7 +12,7 @@ ul{
 }
 
 body {
-  background-color: #78909c;
+  background-color: #fff;
   padding: 0%;
   margin: 0; /* Reset default body margin */
 }
@@ -36,7 +36,9 @@ header {
 }
 
 .right-links {
-  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 }
 
 .auth-links {
@@ -48,7 +50,7 @@ header {
   list-style-type: none;
 }
 
-.auth-links a {
+.auth-links a, .logOutbtn {
   list-style: none;
   text-decoration: none;
   color: #ffffff;
@@ -57,11 +59,13 @@ header {
   padding: 9px 14px;
   border-radius: 5px;
   background-color: #050505; /* Change this to your desired background color */
+  cursor: pointer;
 }
 
 
 nav {
-  margin-left: 20px; /* Adjust the margin as needed */
+  margin-left: 30px; 
+  display: flex;
 }
 
 
@@ -107,10 +111,12 @@ nav a {
 
 .box-column {
     flex: 1;
-    border: 1px solid #ccc;
+    border: 0.3px solid #707070;
     margin: 10px;
     padding: 10px;
-    min-height: 200px; /* Legg til en minste høyde for å gi plass til drag-and-drop */
+    min-height: 200px;
+    border-radius: 7px; /* Legg til en minste høyde for å gi plass til drag-and-drop */
+    background-color: #cbd8ed;
 }
 
 
@@ -126,12 +132,12 @@ nav a {
   background-color: #fff;
   padding: 3px 6px;
   border-radius: 4px;
-  color: #1976d2;
+  color: #000000;
 }
 
 .box-header i {
   margin-right: 5px;
-  color: #fff;
+  color: #000000;
   cursor: pointer;
   font-size: 16px; /* Legg til denne linjen for å justere størrelsen på ikonene */
 }
@@ -164,7 +170,7 @@ nav a {
   padding: 5px 8px;
   font-size: 13px;
   font-weight: bold;
-  color: #fff;
+  color: #040404;
   line-height: 50px;
   border-radius: 4px;
 }
