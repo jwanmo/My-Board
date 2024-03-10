@@ -4,6 +4,8 @@ import 'dotenv/config';
 import TASK_API from './routes/tasksRoute.mjs'; 
 import SuperLogger from './modules/SuperLogger.mjs';
 
+
+
 // Creating an instance of the server
 const server = express();
 // Selecting a port for the server to use.
@@ -22,6 +24,9 @@ server.use(express.static('public'));
 server.use("/user", USER_API);
 server.use("/task", TASK_API);
 
+server.use(express.json()); // This allows you to access request body as JSON
+
+
 server.post("/login",(req, res, next) => {
     console.log("user " + req.params.username + "wnts to login!");
     res.status(200).send().end();
@@ -34,8 +39,6 @@ server.get("/", (req, res, next) => {
 
     res.status(200).send(JSON.stringify({ msg: "These are not the droids...." })).end();
 });
-
-
 
 // Start the server 
 server.listen(server.get('port'), function () {

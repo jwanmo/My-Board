@@ -15,15 +15,16 @@
                 <nav>
                     <ul>
                         <li><a href="#" onclick="navigateTo('home')">Home</a></li>
-                        <li><a href="#">My Work</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="right-links">
-                <div class="auth-links">
+                <div id="authLinks" class="auth-links">
                     <li class="login"><a onclick="navigateTo('login')">Login</a></li>
                     <li class="register"><a onclick="navigateTo('register')">Register</a></li>
                 </div>
+                <div id="profileBtn" class="logOutbtn" onclick="navigateTo('profile')">My profile</div>
+                <div id="logOutbtn" class="logOutbtn" onclick="logOut()">Log out</div>
             </div>
         </div>
     </header>
