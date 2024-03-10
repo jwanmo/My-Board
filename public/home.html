@@ -8,12 +8,27 @@
 <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
     <div class="box-header">
         <h5> <span class="num">0</span></h5>
-        <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+        <li><i draggable="true" ondragstart="drag(event)"></i></li>
     </div>
 </div>
 <div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
     <div class="box-header">
         <h5> <span class="num">0</span></h5>
-        <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
+        <li><i draggable="true" ondragstart="drag(event)"></i></li>
     </div>
 </div>
+
+
+<template id="tmCard">
+    <input class="tag" id="taskTitle" value="New Task" placeholder="Task title"></input>
+    <textarea id="taskDescription" placeholder="Task description"></textarea>
+    <div class="box-footer">
+        <div class="date">
+            <li><i class="fa-solid fa-calendar-days"></i></li>
+            <input type="date" id="myDate">
+        </div>
+        <li class="comment"><i class="fa-solid fa-message"></i>0</li>
+    </div>
+</template>
+
+

@@ -1,93 +1,75 @@
-
 let dragSource = null;
 
-// Legg til drag-event for kortet
 function drag(event) {
+  console.log("Drag");
   const draggedBox = event.target.closest(".box");
   event.dataTransfer.setData("text/plain", draggedBox.outerHTML);
-  dragSource = event.target; // hmm dette er ikke nødvendig egentlig??
+  dragSource = event.target;
 }
 
-// Legg til drop-event for kolonner
 function drop(event) {
+  console.log("Drop");
   event.preventDefault();
 
-  const existingBox = event.currentTarget.querySelector(".box");
-
-  if (existingBox) {
-    // Fjern eksisterende kort fra kolonnen.
-    existingBox.remove();
-  }
-
-  ///TODO: Finnes dragsource egentlig en plass i event objektet?
-
-  // Legg til det klonede kortet i kolonnen.
   event.currentTarget.appendChild(dragSource);
   dragSource = null;
 
   event.target.style.opacity = "1";
 }
 
-
-// Legg til allowDrop-funksjonen
 function allowDrop(event) {
+  console.log("Allowdrop");
   event.preventDefault();
 }
 
-function moveCard(event) {
-  const box = event.currentTarget;
-  const currentColumn = box.parentElement;
-
-  if (currentColumn.nextElementSibling) {
-    const nextColumn = currentColumn.nextElementSibling;
-    const clonedBox = box.cloneNode(true);
-    nextColumn.appendChild(clonedBox);
-  } else {
-    const firstColumn = document.querySelector(".box-column");
-    const clonedBox = box.cloneNode(true);
-    firstColumn.appendChild(clonedBox);
-  }
-}
-
-// Legg til event listeners for ondragover og ondrop
-const columns = document.querySelectorAll(".box-column");
-columns.forEach((column) => {
-  column.addEventListener("dragover", allowDrop);
-  column.addEventListener("drop", drop);
-});
-
-// Opprett kort
 function createCard() {
   const box = document.createElement("div");
   box.className = "box";
-  box.innerHTML = `
-  <span class="tag" id="blue">New Task</span>
-  <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-      excepturi!
-  </p>
-  <div class="box-footer">
-      <div class="date">
-          <li><i class="fa-solid fa-calendar-days"></i></li>
-          <span>Today</span>
-      </div>
-      <li class="comment"><i class="fa-solid fa-message"></i>0</li>
-  </div>
-`;
+  box.innerHTML = ``;
+  const tm = document.getElementById("tmCard").content.cloneNode(true);
+  box.appendChild(tm);
+
   box.draggable = true;
   box.ondragstart = drag;
-  box.addEventListener("click", moveCard);
+
   return box;
 }
 
-// Legg til kort ved å klikke på pluss-ikonet
-const plusIcons = document.querySelectorAll(".fa-plus");
-plusIcons.forEach((icon) => {
-  icon.addEventListener("click", addCard);
-});
+const plusIcon = document.querySelector(".fa-plus");
+plusIcon.addEventListener("click", addCard);
 
 function addCard(event) {
+  console.log("ADD");
   const column = event.target.closest(".box-column");
   const box = createCard();
   column.appendChild(box);
+
+  const taskTitle = document.getElementById("taskTitle");
+  const url = "/task";
+  console.log(taskTitle);
+  const data = {
+    title: taskTitle.value,
+    token: localStorage.getItem("token"),
+  };
+  fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(
+          "Network response was not ok" + JSON.stringify(response)
+        );
+      }
+      return JSON.stringify(response);
+    })
+    .then((data) => {
+      console.log(data);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
 }
