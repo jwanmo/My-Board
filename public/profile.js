@@ -33,10 +33,11 @@ async function alterUser() {
 
 function getUser() {
     const token = getLocalStoarge("token");
-    const url = "/user/" + token;
+    const url = "/user/";
     fetch(url, {
       method: "GET",
       headers: {
+        "Authorization": token,
         "Content-Type": "application/json",
       },
     })
@@ -52,12 +53,12 @@ function getUser() {
           const userCountry = document.getElementById("userCountry");
           const userStreet = document.getElementById("userStreet");
           const userZipCode = document.getElementById("userZipCode");
-          userEmail.textContent = data.email;
-          userName.textContent = data.name;
-          userCity.textContent = data.city;
-          userStreet.textContent = data.street;
-          userCountry.textContent = data.country;
-          userZipCode.textContent = data.zipcode;
+          userEmail.textContent = "Email: " + data.email;
+          userName.textContent = "Name: " + data.name;
+          userCity.textContent = "City: " + data.city;
+          userStreet.textContent = "Street: " + data.street;
+          userCountry.textContent = "Country: " + data.country;
+          userZipCode.textContent = "Zip Code: " + data.zipcode;
         }
     })
       .catch((error) => {
