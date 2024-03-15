@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Ubuntu";
 }
 
 ul{
@@ -15,6 +13,7 @@ body {
   background-color: #fff;
   padding: 0%;
   margin: 0; /* Reset default body margin */
+  height: 100%;
 }
 
 header {
@@ -22,6 +21,10 @@ header {
   color: #fff;
   padding: 10px;
   text-align: center;
+
+
+  left: 0%;
+  width: 100%;
 }
 
 .top-bar {
@@ -35,10 +38,11 @@ header {
   align-items: center;
 }
 
-.right-links {
-  display: flex;
+.right-links{
+  display:flex;
   justify-content: center;
   justify-items: center;
+  margin-right: 0;
 }
 
 .auth-links {
@@ -58,8 +62,9 @@ header {
   font-size: 1.2em;
   padding: 9px 14px;
   border-radius: 5px;
-  background-color: #050505; /* Change this to your desired background color */
+  background-color: #050505;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 
@@ -115,7 +120,7 @@ nav a {
     margin: 10px;
     padding: 10px;
     min-height: 200px;
-    border-radius: 7px; /* Legg til en minste høyde for å gi plass til drag-and-drop */
+    border-radius: 7px; 
     background-color: #cbd8ed;
 }
 
@@ -132,7 +137,8 @@ nav a {
   background-color: #fff;
   padding: 3px 6px;
   border-radius: 4px;
-  color: #000000;
+  color: #ff0000;
+  display: flex;
 }
 
 .box-header i {
@@ -210,7 +216,7 @@ nav a {
   display: flex;
 }
 
-footer {
+footer{
   background-color: #1976d2;
   color: #fff;
   padding: 30px;
@@ -219,4 +225,97 @@ footer {
   bottom: 0;
   left: 0%;
   width: 100%;
+}
+
+
+
+
+/* Style for all task details */
+span {
+  display: block;
+  margin-bottom: 5px; 
+  margin-top: 5px;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.task-description {
+  font-size: 18px;
+  color: #666;
+}
+
+.task-deadline {
+  font-size: 18px;
+  color: #333;
+}
+
+
+.task-created {
+  font-size: 15px;
+  color: #999;
+}
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .box-column {
+    flex-basis: calc(50% - 20px); /* Two columns */
+    max-width: calc(50% - 20px);
+  }
+
+
+  .header, .footer {
+    padding: 5px;
+  }
+
+  .logo, .auth-links a, .logOutbtn, nav a {
+    font-size: 1em;
+  }
+
+  .box {
+    padding: 5px 10px;
+  }
+
+  nav {
+    margin-left: 10px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+  .box-column {
+    flex-basis: calc(50% - 20px); 
+    max-width: calc(50% - 20px);
+  }
+
+  .header, .footer {
+    padding: 5px;
+  }
+
+ 
+
+  .logo, .auth-links a, .logOutbtn, nav a {
+    font-size: 0.9em;
+  }
+
+  .box {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 142px;
+    cursor: pointer;
+    margin: 15px 5px;
+    transition: all 0.2s;
+    cursor: grab; 
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+  }
+
+
+  footer {
+    position: none;
+  }
 }
