@@ -42,6 +42,7 @@ export const insert = async (request, values) => {
         });
         return dbRes;
     } catch (e) {
+        SuperLogger.log('ERROR :' + e);
         return false;
     } finally {
         if (client) {

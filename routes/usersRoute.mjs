@@ -9,8 +9,8 @@ import jwt from "jsonwebtoken";
 
 const USER_API = express.Router();
 USER_API.use(express.json());
-USER_API.get("/:token", async (req, res, next) => {
-  const { token } = req.params;
+USER_API.get("/", async (req, res, next) => {
+  const token = req.headers['authorization'];
 
   const decodedToken = jwt.decode(token);
 
