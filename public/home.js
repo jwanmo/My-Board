@@ -166,6 +166,14 @@ function displayTasks() {
           appendTaskDetail("task-comment", task.comment);
           appendTaskDetail("task-created", task.created);
 
+          const deleteTaskButton = document.createElement("button");
+          deleteTaskButton.classList.add("deleteTaskBtn");
+          deleteTaskButton.textContent = "Delete task"; 
+          deleteTaskButton.onclick = function() {
+            deleteTask(task.id);
+          };
+          taskElement.appendChild(deleteTaskButton);
+
           // Finally, append the task to the tasks container
 
           if (task.status == "doing") {
@@ -180,6 +188,34 @@ function displayTasks() {
     })
     .catch((error) => {
       console.error("Error fetching tasks:", error);
+    });
+}
+
+function deleteTask(taskId) {
+  console.log('Task deleted!', taskId);
+  const url = "/task/" + taskId;
+  const token = getLocalStoarge("token");
+  fetch(url, {
+    method: "DELETE",
+    headers: {
+      "Authorization": token,
+      "Content-Type": "application/json",
+    },
+
+  })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(
+          "Network response was not ok" + JSON.stringify(response)
+        );
+      }
+      return JSON.stringify(response);
+    })
+    .then(() => {
+      displayTasks();
+    })
+    .catch((error) => {
+      console.error("Error:", error);
     });
 }
 
