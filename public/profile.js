@@ -82,6 +82,7 @@ function getUser() {
       if (response.ok) {
         localStorage.removeItem("token");
         navigateTo("login");
+        showHideAuthLinks();
       } else {
         alert("Delete user failed");
       }
