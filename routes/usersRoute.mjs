@@ -4,6 +4,7 @@ import { HTTPCodes } from "../modules/httpConstants.mjs";
 import SuperLogger from "../modules/SuperLogger.mjs";
 import { registerUser } from "../modules/register.mjs";
 import { implement } from "../modules/db.mjs";
+import { remove } from "../modules/db.mjs";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
@@ -146,8 +147,40 @@ USER_API.put("/", (req, res) => {
   });
 });
 
-USER_API.delete("/:id", (req, res) => {
+USER_API.delete("/", (req, res) => {
   // TODO: Delete user.
+  const token = req.headers['authorization'];
+
+  jwt.verify(token, process.env.JWT_SECRET, async (err, decoded) => {
+    if (err) {
+      return res.status(401).json({ message: "Token is invalid or expired" });
+    }
+    try {
+      const deleteTaskQuery =
+        'DELETE FROM "task" WHERE userid = $1 RETURNING *';
+      const deleteUserQuery =
+        'DELETE FROM "user" WHERE id = $1 RETURNING *';
+      const values = [decoded.userId];
+      console.log(decoded.userId)
+
+      const deleteTaskRes = await remove(deleteTaskQuery, values);
+      const deleteUserRes = await remove(deleteUserQuery, values);
+
+      SuperLogger.log(
+        "Data deleted " + JSON.stringify(deleteUserRes)
+      );
+      if(deleteUserRes.rowCount==0) {
+        res.status(HTTPCodes.ClientSideErrorRespons.BadRequest).end();
+      }
+      res.status(HTTPCodes.SuccesfullRespons.Ok).end();
+    } catch (error) {
+      SuperLogger.log(
+        "Error deleting user: " + error,
+        SuperLogger.LOGGING_LEVELS.CRTICAL
+      );
+      res.status(HTTPCodes.ClientSideErrorRespons.BadRequest).end();
+    }
+  });
 });
 
 export default USER_API;

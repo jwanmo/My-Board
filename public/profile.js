@@ -66,12 +66,46 @@ function getUser() {
       });
   }
 
+  async function deleteUser() {
+  const token = localStorage.getItem("token");
+
+  if (token) {
+    try {
+      const response = await fetch("/user", {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": token
+        },
+      });
+
+      if (response.ok) {
+        localStorage.removeItem("token");
+        navigateTo("login");
+      } else {
+        alert("Delete user failed");
+      }
+    } catch (error) {
+      console.error("Error deleting user:", error);
+      alert("Error deleting user");
+    }
+  }
+}
+
 const updateProfileForm = document.getElementById("updateProfileForm");
 updateProfileForm.addEventListener("submit", function (event) {
     event.preventDefault();
     alterUser();
 });
 
+
+const deleteUserButton = document.getElementById("deleteUser");
+deleteUserButton.addEventListener("click", function (event) {
+  event.preventDefault();
+  deleteUser();
+});
+
 if (document.getElementById("userEmail")) {
     getUser();
 }
+
