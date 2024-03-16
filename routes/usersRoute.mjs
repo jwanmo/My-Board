@@ -47,7 +47,7 @@ USER_API.post("/login", async (req, res) => {
       console.log(match);
       if (match) {
         const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET, {
-          expiresIn: "1h",
+          expiresIn: "24h",
         });
         res.status(200).json({ token });
       } else {
@@ -101,7 +101,6 @@ USER_API.post("/", (req, res, next) => {
 });
 
 USER_API.put("/", (req, res) => {
-  /// TODO: Edit user
   console.log("Got put request");
   const { token, name, password } = req.body;
   console.log("--", token, "--", password, "-", name);
@@ -148,7 +147,7 @@ USER_API.put("/", (req, res) => {
 });
 
 USER_API.delete("/:id", (req, res) => {
-  /// TODO: Delete user.
+  // TODO: Delete user.
 });
 
 export default USER_API;

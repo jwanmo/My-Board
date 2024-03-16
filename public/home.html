@@ -1,25 +1,31 @@
-
-<div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div class="box-column" column-id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
     <div class="box-header">
         <h5> <span class="num">0</span></h5>
         <li><i class="fa-solid fa-plus" draggable="true" ondragstart="drag(event)"></i></li>
     </div>
+    <div class="tmCards">
+        <!-- Tasks will be appended here -->
+    </div>
 </div>
-<div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
+<div class="box-column" column-id="doing" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <div class="box-header">
+        <h5> <span class="num">To Do</span></h5>
+        <li><i draggable="true" ondragstart="drag(event)"></i></li>
+    </div>
+</div>
+<div class="box-column" column-id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
     <div class="box-header">
         <h5> <span class="num">0</span></h5>
         <li><i draggable="true" ondragstart="drag(event)"></i></li>
     </div>
 </div>
-<div class="box-column" ondrop="drop(event)" ondragover="allowDrop(event)">
-    <div class="box-header">
-        <h5> <span class="num">0</span></h5>
-        <li><i draggable="true" ondragstart="drag(event)"></i></li>
-    </div>
-</div>
-
 
 <template id="tmCard">
+</template>
+
+
+<template id="tmNewCard">
+    <div id="tmCards"></div>
     <input class="tag" id="taskTitle" value="New Task" placeholder="Task title"></input>
     <textarea id="taskDescription" placeholder="Task description"></textarea>
     <div class="box-footer">
@@ -29,6 +35,5 @@
         </div>
         <li class="comment"><i class="fa-solid fa-message"></i>0</li>
     </div>
+    <button id="createButton">Create Card</button>
 </template>
-
-

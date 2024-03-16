@@ -24,7 +24,7 @@ export const implement = async (request, values) => {
         return false;
     } finally {
         if (client) {
-            client.release(); // Release the client back to the pool
+            client.release(); 
         }
     }
 }
@@ -46,13 +46,12 @@ export const insert = async (request, values) => {
         return false;
     } finally {
         if (client) {
-            client.release(); // Release the client back to the pool
+            client.release();
         }
     }
 }
 
 
-// Add the update function
 export const update = async (request, values) => {
     let client
     try {
@@ -63,12 +62,12 @@ export const update = async (request, values) => {
         return false;
     } finally {
         if (client) {
-            client.release(); // Release the client back to the pool
+            client.release(); 
         }
     }
 }
 
-// Add the remove function
+
 export const remove = async (request, values) => {
     let client
     try {
@@ -79,7 +78,7 @@ export const remove = async (request, values) => {
         return false;
     } finally {
         if (client) {
-            client.release(); // Release the client back to the pool
+            client.release();
         }
     }
 }
