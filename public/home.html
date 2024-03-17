@@ -25,15 +25,15 @@
 
 
 <template id="tmNewCard">
-    <div id="tmCards"></div>
-    <input class="tag" id="taskTitle" value="New Task" placeholder="Task title"></input>
-    <textarea id="taskDescription" placeholder="Task description"></textarea>
-    <div class="box-footer">
-        <div class="date">
-            <li><i class="fa-solid fa-calendar-days"></i></li>
-            <input type="date" id="myDate">
+    <div id="tmCards">
+        <input class="tag" id="taskTitle" value="New Task" placeholder="Task title"></input>
+        <textarea id="taskDescription" placeholder="Description"></textarea>
+        <div class="box-footer">
+            <div class="date">
+                <li><i class="fa-solid fa-calendar-days"></i></li>
+                <input type="date" id="myDate">
+            </div>
         </div>
-        <li class="comment"><i class="fa-solid fa-message"></i>0</li>
+        <button id="createButton">Create Card</button>
     </div>
-    <button id="createButton">Create Card</button>
 </template>

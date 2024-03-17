@@ -286,6 +286,50 @@ span {
   }
 }
 
+#taskTitle {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 20px;
+}
+
+#taskDescription {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 5px;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.date input[type="date"] {
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 1px;
+}
+
+#createButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 5px;
+  margin-top: 2px;
+}
+
+#createButton:hover {
+  background-color: #0056b3;
+}
+
 @media (max-width: 767px) {
   .box-column {
     flex-basis: calc(50% - 20px);
