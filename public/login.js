@@ -1,5 +1,4 @@
 function login() {
-    console.log("login");
     const email = document.getElementById("email");
     const password = document.getElementById("password");
 
@@ -47,7 +46,6 @@ function login() {
 const loginForm = document.getElementById("loginForm");
 loginForm.addEventListener("submit", function (event) {
     event.preventDefault();
-    console.log(event, "oooo")
     login();
 });
 

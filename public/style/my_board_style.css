@@ -1,18 +1,17 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-ul{
+ul {
   display: flex;
 }
 
 body {
   background-color: #fff;
   padding: 0%;
-  margin: 0; /* Reset default body margin */
+  margin: 0;
   height: 100%;
 }
 
@@ -38,8 +37,8 @@ header {
   align-items: center;
 }
 
-.right-links{
-  display:flex;
+.right-links {
+  display: flex;
   justify-content: center;
   justify-items: center;
   margin-right: 0;
@@ -54,7 +53,8 @@ header {
   list-style-type: none;
 }
 
-.auth-links a, .logOutbtn {
+.auth-links a,
+.logOutbtn {
   list-style: none;
   text-decoration: none;
   color: #ffffff;
@@ -69,7 +69,7 @@ header {
 
 
 nav {
-  margin-left: 30px; 
+  margin-left: 30px;
   display: flex;
 }
 
@@ -85,7 +85,7 @@ nav a {
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
-  font-size: 1.2em; /* Match the font size with other links */
+  font-size: 1.2em;
 }
 
 .logo {
@@ -111,17 +111,17 @@ nav a {
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
 .box-column {
-    flex: 1;
-    border: 0.3px solid #707070;
-    margin: 10px;
-    padding: 10px;
-    min-height: 200px;
-    border-radius: 7px; 
-    background-color: #cbd8ed;
+  flex: 1;
+  border: 0.3px solid #707070;
+  margin: 10px;
+  padding: 10px;
+  min-height: 200px;
+  border-radius: 7px;
+  background-color: #cbd8ed;
 }
 
 
@@ -137,7 +137,7 @@ nav a {
   background-color: #fff;
   padding: 3px 6px;
   border-radius: 4px;
-  color: #ff0000;
+  color: #000000;
   display: flex;
 }
 
@@ -145,7 +145,7 @@ nav a {
   margin-right: 5px;
   color: #000000;
   cursor: pointer;
-  font-size: 16px; /* Legg til denne linjen for å justere størrelsen på ikonene */
+  font-size: 16px;
 }
 
 .box {
@@ -156,7 +156,7 @@ nav a {
   cursor: pointer;
   margin: 15px 5px;
   transition: all 0.2s;
-  cursor: grab; /* Endre pekeren for å indikere at det kan dras */
+  cursor: grab;
   border: 1px solid #ddd;
 
 }
@@ -216,7 +216,7 @@ nav a {
   display: flex;
 }
 
-footer{
+footer {
   background-color: #1976d2;
   color: #fff;
   padding: 30px;
@@ -228,12 +228,10 @@ footer{
 }
 
 
-
-
 /* Style for all task details */
 span {
   display: block;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
   margin-top: 5px;
 }
 
@@ -260,19 +258,22 @@ span {
 }
 
 
-/* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .box-column {
-    flex-basis: calc(50% - 20px); /* Two columns */
+    flex-basis: calc(50% - 20px);
     max-width: calc(50% - 20px);
   }
 
 
-  .header, .footer {
+  .header,
+  .footer {
     padding: 5px;
   }
 
-  .logo, .auth-links a, .logOutbtn, nav a {
+  .logo,
+  .auth-links a,
+  .logOutbtn,
+  nav a {
     font-size: 1em;
   }
 
@@ -285,20 +286,23 @@ span {
   }
 }
 
-/* Mobile devices */
 @media (max-width: 767px) {
   .box-column {
-    flex-basis: calc(50% - 20px); 
+    flex-basis: calc(50% - 20px);
     max-width: calc(50% - 20px);
   }
 
-  .header, .footer {
+  .header,
+  .footer {
     padding: 5px;
   }
 
- 
 
-  .logo, .auth-links a, .logOutbtn, nav a {
+
+  .logo,
+  .auth-links a,
+  .logOutbtn,
+  nav a {
     font-size: 0.9em;
   }
 
@@ -309,7 +313,7 @@ span {
     cursor: pointer;
     margin: 15px 5px;
     transition: all 0.2s;
-    cursor: grab; 
+    cursor: grab;
     border: 1px solid #ddd;
     padding: 5px 10px;
   }

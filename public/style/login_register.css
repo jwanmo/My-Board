@@ -1,11 +1,11 @@
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.container, .loginContainer{
+.container,
+.loginContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,68 +13,71 @@
   width: 100%;
   max-width: 400px;
   padding: 20px;
-  margin: 20px auto; 
-  background: fixed;/* Centering the container with margin and adding space */
+  margin: 20px auto;
+  background: fixed;
   background-color: rgb(246, 246, 246);
   border-radius: 20px;
 }
 
-#loginForm, #regForm {
-    width: 100%;
+#loginForm,
+#regForm {
+  width: 100%;
 }
 
 h1#title {
-    color: #333;
-    margin-bottom: 20px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-#input input, #loginForm input {
-    width: calc(100% - 0px); /* Fix input width to adapt padding */
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+#input input,
+#loginForm input {
+  width: calc(100% - 0px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-#register, #login {
-    width: 100%;
-    padding: 10px;
-    background-color: #1976d2;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
+#register,
+#login {
+  width: 100%;
+  padding: 10px;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-#register:hover, #login:hover {
-    background-color: #165ea8; /* Slightly darker on hover */
+#register:hover,
+#login:hover {
+  background-color: #165ea8;
 }
 
 #buttonWrapper {
-    display: flex;
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 10px; /* Add space between buttons */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
-    .container, .loginContainer {
-      width: 90%;
-      padding: 10px;
-    }
-  
-    h1#title {
-      font-size: 24px;
-    }
-  }
-  
-  @media (max-width: 1024px) { /* Tablet adjustments */
-    .container, .loginContainer {
-      width: 85%;
-    }
+
+  .container,
+  .loginContainer {
+    width: 90%;
+    padding: 10px;
   }
 
+  h1#title {
+    font-size: 24px;
+  }
+}
 
+@media (max-width: 1024px) {
 
-  
+  .container,
+  .loginContainer {
+    width: 85%;
+  }
+}

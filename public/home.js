@@ -1,7 +1,6 @@
 let dragSource = null;
 
 function drag(event) {
-  console.log("Drag");
   const draggedBox = event.target.closest(".box");
   event.dataTransfer.setData("text/plain", draggedBox.outerHTML);
   dragSource = event.target;
@@ -57,7 +56,6 @@ function drop(event) {
 }
 
 function allowDrop(event) {
-  console.log("Allowdrop");
   event.preventDefault();
 }
 
@@ -78,7 +76,6 @@ const plusIcon = document.querySelector(".fa-plus");
 plusIcon.addEventListener("click", addCard);
 
 function addCard(event) {
-  console.log("ADD");
   const column = event.target.closest(".box-column");
   const box = createCard("tmNewCard");
   column.appendChild(box);
@@ -87,7 +84,6 @@ function addCard(event) {
 }
 
 function saveTask() {
-  console.log("saveTask");
   const taskTitle = document.getElementById("taskTitle");
   const url = "/task";
   const token = getLocalStoarge("token");
@@ -128,7 +124,6 @@ function displayTasks() {
   const doingCoulmn = document.querySelector('div[column-id="doing"]');
   const doneCoulmn = document.querySelector('div[column-id="done"]');
 
-  console.log(todoCoulmn, doingCoulmn);
   const url = "/task";
   const token = getLocalStoarge("token");
   fetch(url, {
@@ -155,7 +150,7 @@ function displayTasks() {
           function appendTaskDetail(className, content) {
             const detailElement = document.createElement("span");
             detailElement.classList.add(className);
-            detailElement.textContent = content; // Use .innerHTML if you need to include HTML
+            detailElement.textContent = content; 
             taskElement.appendChild(detailElement);
           }
 
@@ -227,9 +222,12 @@ function clearTasksContainer() {
   while(todoCoulmn.childNodes.length > 5){
     todoCoulmn.removeChild(todoCoulmn.lastChild);
   }
-
-  doingCoulmn.innerHTML = "";
-  doneCoulmn.innerHTML = "";
+  while(doingCoulmn.childNodes.length > 2){
+    doingCoulmn.removeChild(doingCoulmn.lastChild);
+  }
+  while(doneCoulmn.childNodes.length > 2){
+    doneCoulmn.removeChild(doneCoulmn.lastChild);
+  }
 }
 
 
