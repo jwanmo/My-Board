@@ -148,7 +148,6 @@ USER_API.put("/", (req, res) => {
 });
 
 USER_API.delete("/", (req, res) => {
-  // TODO: Delete user.
   const token = req.headers['authorization'];
 
   jwt.verify(token, process.env.JWT_SECRET, async (err, decoded) => {

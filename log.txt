@@ -5244,3 +5244,840 @@ Data inserted successfully:[object Promise]
 1:04:39 AM [32mGET[39m /style/login_register.css
 1:04:39 AM [32mGET[39m /login.js
 Data :[object Object]
+8:50:31 PM [32mGET[39m /
+8:50:31 PM [32mGET[39m /style/my_board_style.css
+8:50:31 PM [32mGET[39m /index.js
+8:50:31 PM [32mGET[39m /home.html
+8:50:31 PM [32mGET[39m /home.js
+8:50:31 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:37:05 AM [32mGET[39m /
+11:37:05 AM [32mGET[39m /style/my_board_style.css
+11:37:05 AM [32mGET[39m /index.js
+11:37:05 AM [32mGET[39m /login.html
+11:37:05 AM [32mGET[39m /style/login_register.css
+11:37:05 AM [32mGET[39m /login.js
+11:37:11 AM [32mGET[39m /
+11:37:11 AM [32mGET[39m /style/my_board_style.css
+11:37:11 AM [32mGET[39m /index.js
+11:37:11 AM [32mGET[39m /login.html
+11:37:11 AM [32mGET[39m /style/login_register.css
+11:37:11 AM [32mGET[39m /login.js
+11:37:12 AM [32mGET[39m /favicon.ico
+11:37:30 AM [32mGET[39m /
+11:37:30 AM [32mGET[39m /style/my_board_style.css
+11:37:30 AM [32mGET[39m /index.js
+11:37:30 AM [32mGET[39m /login.html
+11:37:30 AM [32mGET[39m /style/login_register.css
+11:37:30 AM [32mGET[39m /login.js
+11:37:36 AM [32mGET[39m /style/my_board_style.css
+11:37:36 AM [32mGET[39m /style/login_register.css
+11:37:41 AM [32mGET[39m /register.html
+11:37:41 AM [32mGET[39m /style/login_register.css
+11:37:41 AM [32mGET[39m /register.js
+11:37:43 AM [32mGET[39m /login.html
+11:37:43 AM [32mGET[39m /style/login_register.css
+11:37:50 AM [32mGET[39m /?email=a%40a
+11:37:50 AM [32mGET[39m /style/my_board_style.css
+11:37:50 AM [32mGET[39m /index.js
+11:37:50 AM [32mGET[39m /login.html
+11:37:50 AM [32mGET[39m /style/login_register.css
+11:37:50 AM [32mGET[39m /login.js
+11:37:55 AM [33mPOST[39m /user/login
+11:37:58 AM [33mPOST[39m /user/login
+11:38:04 AM [33mPOST[39m /user/login
+11:38:10 AM [33mPOST[39m /user/login
+11:38:10 AM [32mGET[39m /home.html
+11:38:10 AM [32mGET[39m /home.js
+11:38:10 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:39:13 AM [32mGET[39m /style/my_board_style.css
+11:40:44 AM [32mGET[39m /?email=a%40a
+11:40:45 AM [32mGET[39m /style/my_board_style.css
+11:40:45 AM [32mGET[39m /index.js
+11:40:45 AM [32mGET[39m /home.html
+11:40:45 AM [32mGET[39m /home.js
+11:40:45 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:41:15 AM [32mGET[39m /?email=a%40a
+11:41:15 AM [32mGET[39m /index.js
+11:41:15 AM [32mGET[39m /style/my_board_style.css
+11:41:16 AM [32mGET[39m /home.html
+11:41:16 AM [32mGET[39m /home.js
+11:41:16 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:43:41 AM [32mGET[39m /?email=a%40a
+11:43:41 AM [32mGET[39m /style/my_board_style.css
+11:43:41 AM [32mGET[39m /index.js
+11:43:41 AM [32mGET[39m /home.html
+11:43:41 AM [32mGET[39m /home.js
+11:43:41 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:44:22 AM [32mGET[39m /?email=a%40a
+11:44:22 AM [32mGET[39m /style/my_board_style.css
+11:44:22 AM [32mGET[39m /index.js
+11:44:22 AM [32mGET[39m /home.html
+11:44:22 AM [32mGET[39m /home.js
+11:44:22 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:44:45 AM [32mGET[39m /?email=a%40a
+11:44:45 AM [32mGET[39m /style/my_board_style.css
+11:44:45 AM [32mGET[39m /index.js
+11:44:45 AM [32mGET[39m /home.html
+11:44:45 AM [32mGET[39m /home.js
+11:44:45 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:45:17 AM [32mGET[39m /?email=a%40a
+11:45:17 AM [32mGET[39m /style/my_board_style.css
+11:45:17 AM [32mGET[39m /index.js
+11:45:17 AM [32mGET[39m /home.html
+11:45:17 AM [32mGET[39m /home.js
+11:45:17 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:45:29 AM [32mGET[39m /?email=a%40a
+11:45:29 AM [32mGET[39m /style/my_board_style.css
+11:45:29 AM [32mGET[39m /index.js
+11:45:29 AM [32mGET[39m /home.html
+11:45:29 AM [32mGET[39m /home.js
+11:45:29 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:45:36 AM [32mGET[39m /?email=a%40a
+11:45:36 AM [32mGET[39m /style/my_board_style.css
+11:45:36 AM [32mGET[39m /index.js
+11:45:36 AM [32mGET[39m /home.html
+11:45:36 AM [32mGET[39m /home.js
+11:45:36 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:46:06 AM [32mGET[39m /?email=a%40a
+11:46:06 AM [32mGET[39m /style/my_board_style.css
+11:46:06 AM [32mGET[39m /index.js
+11:46:06 AM [32mGET[39m /home.html
+11:46:06 AM [32mGET[39m /home.js
+11:46:06 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:46:40 AM [32mGET[39m /?email=a%40a
+11:46:40 AM [32mGET[39m /style/my_board_style.css
+11:46:40 AM [32mGET[39m /index.js
+11:46:40 AM [32mGET[39m /home.html
+11:46:40 AM [32mGET[39m /home.js
+11:46:40 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:46:56 AM [32mGET[39m /?email=a%40a
+11:46:56 AM [32mGET[39m /style/my_board_style.css
+11:46:56 AM [32mGET[39m /index.js
+11:46:56 AM [32mGET[39m /home.html
+11:46:56 AM [32mGET[39m /home.js
+11:46:56 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:48:26 AM [32mGET[39m /?email=a%40a
+11:48:26 AM [32mGET[39m /style/my_board_style.css
+11:48:26 AM [32mGET[39m /index.js
+11:48:27 AM [32mGET[39m /home.html
+11:48:27 AM [32mGET[39m /home.js
+Get My tasks
+11:48:27 AM [32mGET[39m /task
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:49:38 AM [32mGET[39m /?email=a%40a
+11:49:38 AM [32mGET[39m /style/my_board_style.css
+11:49:38 AM [32mGET[39m /index.js
+11:49:38 AM [32mGET[39m /home.html
+11:49:38 AM [32mGET[39m /home.js
+11:49:38 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:49:52 AM [32mGET[39m /home.js
+11:49:52 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:50:47 AM [32mGET[39m /
+11:50:47 AM [32mGET[39m /style/my_board_style.css
+11:50:47 AM [32mGET[39m /index.js
+11:50:47 AM [32mGET[39m /home.html
+11:50:47 AM [32mGET[39m /home.js
+11:50:47 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:51:54 AM [32mGET[39m /
+11:51:54 AM [32mGET[39m /style/my_board_style.css
+11:51:54 AM [32mGET[39m /index.js
+11:51:54 AM [32mGET[39m /home.html
+11:51:54 AM [32mGET[39m /home.js
+11:51:54 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:52:00 AM [32mGET[39m /
+11:52:00 AM [32mGET[39m /style/my_board_style.css
+11:52:00 AM [32mGET[39m /index.js
+11:52:00 AM [32mGET[39m /home.html
+11:52:00 AM [32mGET[39m /home.js
+11:52:00 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:52:07 AM [32mGET[39m /
+11:52:07 AM [32mGET[39m /style/my_board_style.css
+11:52:07 AM [32mGET[39m /index.js
+11:52:07 AM [32mGET[39m /home.html
+11:52:07 AM [32mGET[39m /home.js
+11:52:07 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+2:24:54 PM [32mGET[39m /
+2:24:54 PM [32mGET[39m /index.js
+2:24:54 PM [32mGET[39m /style/my_board_style.css
+2:24:54 PM [32mGET[39m /home.html
+2:24:54 PM [32mGET[39m /home.js
+2:24:54 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+2:25:01 PM [32mGET[39m /
+2:25:01 PM [32mGET[39m /style/my_board_style.css
+2:25:01 PM [32mGET[39m /index.js
+2:25:01 PM [32mGET[39m /home.html
+2:25:01 PM [32mGET[39m /home.js
+2:25:01 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+2:25:32 PM [33mPOST[39m /task
+Data :[object Object]
+Data inserted successfully: {"command":"INSERT","rowCount":1,"oid":0,"rows":[{"id":86,"title":"Eksamen","description":null,"deadline":null,"comment":null,"created":"2024-03-21T13:25:32.396Z","status":null,"creater":null,"userid":103}],"fields":[{"name":"id","tableID":16424,"columnID":1,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"title","tableID":16424,"columnID":3,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"description","tableID":16424,"columnID":4,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"deadline","tableID":16424,"columnID":5,"dataTypeID":1082,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"comment","tableID":16424,"columnID":6,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"created","tableID":16424,"columnID":7,"dataTypeID":1114,"dataTypeSize":8,"dataTypeModifier":-1,"format":"text"},{"name":"status","tableID":16424,"columnID":8,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"creater","tableID":16424,"columnID":9,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"userid","tableID":16424,"columnID":10,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"}],"_parsers":[null,null,null,null,null,null,null,null,null],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false,"_prebuiltEmptyResultObject":{"id":null,"title":null,"description":null,"deadline":null,"comment":null,"created":null,"status":null,"creater":null,"userid":null}}
+2:25:32 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+2:25:36 PM [33mPUT[39m /task/86
+Data :[object Object]
+Data Updated successfully: [object Object]
+2:25:36 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+2:25:41 PM [32mGET[39m /profile.html
+2:25:41 PM [32mGET[39m /profile.js
+2:25:41 PM [32mGET[39m /style/profile.css
+2:25:41 PM [32mGET[39m /user/
+2:25:50 PM [32mGET[39m /login.html
+2:25:50 PM [32mGET[39m /login.js
+2:25:50 PM [32mGET[39m /style/login_register.css
+2:25:55 PM [32mGET[39m /
+2:25:55 PM [32mGET[39m /style/my_board_style.css
+2:25:55 PM [32mGET[39m /index.js
+2:25:55 PM [32mGET[39m /login.html
+2:25:55 PM [32mGET[39m /style/login_register.css
+2:25:55 PM [32mGET[39m /login.js
+2:25:56 PM [32mGET[39m /
+2:25:56 PM [32mGET[39m /style/my_board_style.css
+2:25:56 PM [32mGET[39m /index.js
+2:25:56 PM [32mGET[39m /login.html
+2:25:56 PM [32mGET[39m /style/login_register.css
+2:25:56 PM [32mGET[39m /login.js
+2:25:56 PM [32mGET[39m /
+2:25:56 PM [32mGET[39m /style/my_board_style.css
+2:25:56 PM [32mGET[39m /index.js
+2:25:56 PM [32mGET[39m /login.html
+2:25:56 PM [32mGET[39m /style/login_register.css
+2:25:56 PM [32mGET[39m /login.js
+2:25:56 PM [32mGET[39m /
+2:25:56 PM [32mGET[39m /style/my_board_style.css
+2:25:56 PM [32mGET[39m /index.js
+2:25:56 PM [32mGET[39m /login.html
+2:25:56 PM [32mGET[39m /style/login_register.css
+2:25:56 PM [32mGET[39m /login.js
+2:25:56 PM [32mGET[39m /
+2:25:56 PM [32mGET[39m /style/my_board_style.css
+2:25:56 PM [32mGET[39m /index.js
+2:25:56 PM [32mGET[39m /login.html
+2:25:56 PM [32mGET[39m /style/login_register.css
+2:25:56 PM [32mGET[39m /login.js
+2:25:57 PM [32mGET[39m /
+2:25:57 PM [32mGET[39m /style/my_board_style.css
+2:25:57 PM [32mGET[39m /index.js
+2:25:57 PM [32mGET[39m /login.html
+2:25:57 PM [32mGET[39m /style/login_register.css
+2:25:57 PM [32mGET[39m /login.js
+2:25:57 PM [32mGET[39m /
+2:25:57 PM [32mGET[39m /style/my_board_style.css
+2:25:57 PM [32mGET[39m /index.js
+2:25:57 PM [32mGET[39m /login.html
+2:25:57 PM [32mGET[39m /style/login_register.css
+2:25:57 PM [32mGET[39m /login.js
+2:25:57 PM [32mGET[39m /
+2:25:57 PM [32mGET[39m /style/my_board_style.css
+2:25:57 PM [32mGET[39m /index.js
+2:25:57 PM [32mGET[39m /login.html
+2:25:57 PM [32mGET[39m /style/login_register.css
+2:25:57 PM [32mGET[39m /login.js
+2:25:58 PM [32mGET[39m /
+2:25:58 PM [32mGET[39m /style/my_board_style.css
+2:25:58 PM [32mGET[39m /index.js
+2:25:58 PM [32mGET[39m /login.html
+2:25:58 PM [32mGET[39m /style/login_register.css
+2:25:58 PM [32mGET[39m /login.js
+2:26:02 PM [33mPOST[39m /user/login
+2:26:02 PM [32mGET[39m /home.html
+2:26:02 PM [32mGET[39m /home.js
+2:26:02 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+12:26:34 PM [32mGET[39m /user/98
+12:27:00 PM [32mGET[39m /user/85
+12:27:14 PM [32mGET[39m /task
+Get My tasks
+12:27:26 PM [32mGET[39m /
+12:27:26 PM [32mGET[39m /style/my_board_style.css
+12:27:26 PM [32mGET[39m /index.js
+12:27:26 PM [32mGET[39m /home.html
+12:27:26 PM [32mGET[39m /home.js
+12:27:26 PM [32mGET[39m /task
+Get My tasks
+12:27:27 PM [32mGET[39m /favicon.ico
+12:27:30 PM [32mGET[39m /profile.html
+12:27:30 PM [32mGET[39m /style/profile.css
+12:27:30 PM [32mGET[39m /profile.js
+12:27:30 PM [32mGET[39m /user/
+12:27:33 PM [32mGET[39m /
+12:27:33 PM [32mGET[39m /style/my_board_style.css
+12:27:33 PM [32mGET[39m /index.js
+12:27:33 PM [32mGET[39m /home.html
+12:27:34 PM [32mGET[39m /home.js
+12:27:34 PM [32mGET[39m /task
+Get My tasks
+12:27:37 PM [33mPOST[39m /task
+12:27:38 PM [33mPOST[39m /task
+12:27:39 PM [33mPOST[39m /task
+12:27:40 PM [32mGET[39m /
+12:27:40 PM [32mGET[39m /style/my_board_style.css
+12:27:40 PM [32mGET[39m /index.js
+12:27:40 PM [32mGET[39m /home.html
+12:27:40 PM [32mGET[39m /home.js
+12:27:40 PM [32mGET[39m /task
+Get My tasks
+12:27:43 PM [33mPOST[39m /task
+12:27:44 PM [33mPOST[39m /task
+12:27:47 PM [33mPOST[39m /task
+12:27:56 PM [32mGET[39m /profile.html
+12:27:56 PM [32mGET[39m /style/profile.css
+12:27:56 PM [32mGET[39m /profile.js
+12:27:56 PM [32mGET[39m /user/
+12:28:12 PM [32mGET[39m /login.html
+12:28:12 PM [32mGET[39m /login.js
+12:28:12 PM [32mGET[39m /style/login_register.css
+12:28:19 PM [33mPOST[39m /user/login
+12:28:21 PM [33mPOST[39m /user/login
+12:29:27 PM [32mGET[39m /user/95
+12:29:45 PM [33mPOST[39m /user/login
+12:29:54 PM [33mPOST[39m /user/login
+12:29:54 PM [32mGET[39m /home.html
+12:29:56 PM [32mGET[39m /profile.html
+12:29:56 PM [32mGET[39m /style/profile.css
+12:30:00 PM [32mGET[39m /login.html
+12:30:00 PM [32mGET[39m /style/login_register.css
+12:30:06 PM [32mGET[39m /?email=moha%40test.no
+12:30:07 PM [32mGET[39m /style/my_board_style.css
+12:30:07 PM [32mGET[39m /index.js
+12:30:07 PM [32mGET[39m /login.html
+12:30:07 PM [32mGET[39m /style/login_register.css
+12:30:07 PM [32mGET[39m /login.js
+12:30:36 PM [33mPOST[39m /user/login
+12:30:36 PM [32mGET[39m /home.html
+12:30:36 PM [32mGET[39m /home.js
+12:30:36 PM [32mGET[39m /task
+Get My tasks
+12:30:47 PM [33mPOST[39m /task
+Data :[object Object]
+Data inserted successfully: {"command":"INSERT","rowCount":1,"oid":0,"rows":[{"id":87,"title":"New Task","description":null,"deadline":null,"comment":null,"created":"2024-04-01T10:30:47.017Z","status":null,"creater":null,"userid":93}],"fields":[{"name":"id","tableID":16424,"columnID":1,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"title","tableID":16424,"columnID":3,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"description","tableID":16424,"columnID":4,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"deadline","tableID":16424,"columnID":5,"dataTypeID":1082,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"comment","tableID":16424,"columnID":6,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"created","tableID":16424,"columnID":7,"dataTypeID":1114,"dataTypeSize":8,"dataTypeModifier":-1,"format":"text"},{"name":"status","tableID":16424,"columnID":8,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"creater","tableID":16424,"columnID":9,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"userid","tableID":16424,"columnID":10,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"}],"_parsers":[null,null,null,null,null,null,null,null,null],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false,"_prebuiltEmptyResultObject":{"id":null,"title":null,"description":null,"deadline":null,"comment":null,"created":null,"status":null,"creater":null,"userid":null}}
+12:30:47 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+12:30:52 PM [33mPOST[39m /task
+Data :[object Object]
+Data inserted successfully: {"command":"INSERT","rowCount":1,"oid":0,"rows":[{"id":88,"title":"New Task","description":null,"deadline":null,"comment":null,"created":"2024-04-01T10:30:52.079Z","status":null,"creater":null,"userid":93}],"fields":[{"name":"id","tableID":16424,"columnID":1,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"title","tableID":16424,"columnID":3,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"description","tableID":16424,"columnID":4,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"deadline","tableID":16424,"columnID":5,"dataTypeID":1082,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"comment","tableID":16424,"columnID":6,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"created","tableID":16424,"columnID":7,"dataTypeID":1114,"dataTypeSize":8,"dataTypeModifier":-1,"format":"text"},{"name":"status","tableID":16424,"columnID":8,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"creater","tableID":16424,"columnID":9,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"userid","tableID":16424,"columnID":10,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"}],"_parsers":[null,null,null,null,null,null,null,null,null],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false,"_prebuiltEmptyResultObject":{"id":null,"title":null,"description":null,"deadline":null,"comment":null,"created":null,"status":null,"creater":null,"userid":null}}
+12:30:52 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+12:31:00 PM [32mGET[39m /user/95
+12:31:10 PM [32mGET[39m /task
+Get My tasks
+12:31:33 PM [32mGET[39m /style/my_board_style.css
+12:32:01 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+12:32:13 PM [31mDELETE[39m /task/87
+Data :[object Object]
+Data deleted {"command":"DELETE","rowCount":1,"oid":null,"rows":[{"id":87,"title":"New Task","description":null,"deadline":null,"comment":null,"created":"2024-04-01T10:30:47.017Z","status":null,"creater":null,"userid":93}],"fields":[{"name":"id","tableID":16424,"columnID":1,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"title","tableID":16424,"columnID":3,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"description","tableID":16424,"columnID":4,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"deadline","tableID":16424,"columnID":5,"dataTypeID":1082,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"comment","tableID":16424,"columnID":6,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"created","tableID":16424,"columnID":7,"dataTypeID":1114,"dataTypeSize":8,"dataTypeModifier":-1,"format":"text"},{"name":"status","tableID":16424,"columnID":8,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"creater","tableID":16424,"columnID":9,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"userid","tableID":16424,"columnID":10,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"}],"_parsers":[null,null,null,null,null,null,null,null,null],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false,"_prebuiltEmptyResultObject":{"id":null,"title":null,"description":null,"deadline":null,"comment":null,"created":null,"status":null,"creater":null,"userid":null}}
+12:32:13 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+12:32:17 PM [31mDELETE[39m /task/88
+Data :[object Object]
+Data deleted {"command":"DELETE","rowCount":1,"oid":null,"rows":[{"id":88,"title":"New Task","description":null,"deadline":null,"comment":null,"created":"2024-04-01T10:30:52.079Z","status":null,"creater":null,"userid":93}],"fields":[{"name":"id","tableID":16424,"columnID":1,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"title","tableID":16424,"columnID":3,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"description","tableID":16424,"columnID":4,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"deadline","tableID":16424,"columnID":5,"dataTypeID":1082,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"comment","tableID":16424,"columnID":6,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"created","tableID":16424,"columnID":7,"dataTypeID":1114,"dataTypeSize":8,"dataTypeModifier":-1,"format":"text"},{"name":"status","tableID":16424,"columnID":8,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"creater","tableID":16424,"columnID":9,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"userid","tableID":16424,"columnID":10,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"}],"_parsers":[null,null,null,null,null,null,null,null,null],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false,"_prebuiltEmptyResultObject":{"id":null,"title":null,"description":null,"deadline":null,"comment":null,"created":null,"status":null,"creater":null,"userid":null}}
+12:32:17 PM [32mGET[39m /task
+Get My tasks
+12:32:26 PM [33mPOST[39m /task
+Data :[object Object]
+Data inserted successfully: {"command":"INSERT","rowCount":1,"oid":0,"rows":[{"id":89,"title":"halla","description":null,"deadline":null,"comment":null,"created":"2024-04-01T10:32:26.926Z","status":null,"creater":null,"userid":93}],"fields":[{"name":"id","tableID":16424,"columnID":1,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"title","tableID":16424,"columnID":3,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"description","tableID":16424,"columnID":4,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"deadline","tableID":16424,"columnID":5,"dataTypeID":1082,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"comment","tableID":16424,"columnID":6,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"created","tableID":16424,"columnID":7,"dataTypeID":1114,"dataTypeSize":8,"dataTypeModifier":-1,"format":"text"},{"name":"status","tableID":16424,"columnID":8,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"creater","tableID":16424,"columnID":9,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"userid","tableID":16424,"columnID":10,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"}],"_parsers":[null,null,null,null,null,null,null,null,null],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false,"_prebuiltEmptyResultObject":{"id":null,"title":null,"description":null,"deadline":null,"comment":null,"created":null,"status":null,"creater":null,"userid":null}}
+12:32:26 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+12:32:35 PM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+12:32:52 PM [32mGET[39m /user
+12:33:16 PM [32mGET[39m /user/94
+12:33:24 PM [32mGET[39m /user/93
+12:33:47 PM [32mGET[39m /user/93
+12:34:51 PM [32mGET[39m /user
+12:56:23 AM [32mGET[39m /
+12:56:23 AM [32mGET[39m /style/my_board_style.css
+12:56:24 AM [32mGET[39m /index.js
+12:56:24 AM [32mGET[39m /home.html
+12:56:24 AM [32mGET[39m /home.js
+12:56:24 AM [32mGET[39m /task
+Get My tasks
+12:56:25 AM [32mGET[39m /favicon.ico
+12:57:38 AM [32mGET[39m /style/my_board_style.css
+12:58:00 AM [32mGET[39m /
+12:58:00 AM [32mGET[39m /style/my_board_style.css
+12:58:00 AM [32mGET[39m /index.js
+12:58:00 AM [32mGET[39m /home.html
+12:58:00 AM [32mGET[39m /home.js
+12:58:00 AM [32mGET[39m /task
+Get My tasks
+12:58:15 AM [32mGET[39m /
+12:58:15 AM [32mGET[39m /style/my_board_style.css
+12:58:15 AM [32mGET[39m /index.js
+12:58:15 AM [32mGET[39m /home.html
+12:58:15 AM [32mGET[39m /home.js
+12:58:15 AM [32mGET[39m /task
+Get My tasks
+12:58:16 AM [32mGET[39m /
+12:58:16 AM [32mGET[39m /style/my_board_style.css
+12:58:16 AM [32mGET[39m /index.js
+12:58:16 AM [32mGET[39m /home.html
+12:58:16 AM [32mGET[39m /home.js
+12:58:16 AM [32mGET[39m /task
+Get My tasks
+12:58:34 AM [32mGET[39m /
+12:58:34 AM [32mGET[39m /style/my_board_style.css
+12:58:34 AM [32mGET[39m /index.js
+12:58:34 AM [32mGET[39m /home.html
+12:58:34 AM [32mGET[39m /home.js
+12:58:34 AM [32mGET[39m /task
+Get My tasks
+12:59:28 AM [32mGET[39m /
+12:59:28 AM [32mGET[39m /style/my_board_style.css
+12:59:28 AM [32mGET[39m /index.js
+12:59:28 AM [32mGET[39m /home.html
+12:59:28 AM [32mGET[39m /home.js
+12:59:28 AM [32mGET[39m /task
+Get My tasks
+12:59:38 AM [33mPOST[39m /task
+12:59:40 AM [33mPOST[39m /task
+12:59:43 AM [32mGET[39m /
+12:59:43 AM [32mGET[39m /style/my_board_style.css
+12:59:43 AM [32mGET[39m /index.js
+12:59:43 AM [32mGET[39m /home.html
+12:59:43 AM [32mGET[39m /home.js
+12:59:43 AM [32mGET[39m /task
+Get My tasks
+12:59:45 AM [33mPOST[39m /task
+12:59:46 AM [33mPOST[39m /task
+12:59:49 AM [33mPOST[39m /task
+12:59:52 AM [33mPOST[39m /task
+12:59:57 AM [33mPOST[39m /task
+12:59:57 AM [33mPOST[39m /task
+1:00:19 AM [32mGET[39m /
+1:00:19 AM [32mGET[39m /style/my_board_style.css
+1:00:19 AM [32mGET[39m /index.js
+1:00:19 AM [32mGET[39m /home.html
+1:00:19 AM [32mGET[39m /home.js
+1:00:19 AM [32mGET[39m /task
+Get My tasks
+1:00:27 AM [32mGET[39m /
+1:00:27 AM [32mGET[39m /style/my_board_style.css
+1:00:27 AM [32mGET[39m /index.js
+1:00:27 AM [32mGET[39m /home.html
+1:00:27 AM [32mGET[39m /home.js
+1:00:27 AM [32mGET[39m /task
+Get My tasks
+1:00:29 AM [33mPOST[39m /task
+1:00:30 AM [33mPOST[39m /task
+1:00:31 AM [33mPOST[39m /task
+1:00:32 AM [32mGET[39m /
+1:00:32 AM [32mGET[39m /style/my_board_style.css
+1:00:32 AM [32mGET[39m /index.js
+1:00:32 AM [32mGET[39m /home.html
+1:00:32 AM [32mGET[39m /home.js
+1:00:32 AM [32mGET[39m /task
+Get My tasks
+1:00:34 AM [32mGET[39m /login.html
+1:00:34 AM [32mGET[39m /style/login_register.css
+1:00:34 AM [32mGET[39m /login.js
+1:00:40 AM [33mPOST[39m /user/login
+1:00:41 AM [33mPOST[39m /user/login
+1:00:43 AM [32mGET[39m /
+1:00:43 AM [32mGET[39m /style/my_board_style.css
+1:00:43 AM [32mGET[39m /index.js
+1:00:43 AM [32mGET[39m /login.html
+1:00:43 AM [32mGET[39m /style/login_register.css
+1:00:43 AM [32mGET[39m /login.js
+1:00:47 AM [33mPOST[39m /user/login
+1:00:52 AM [33mPOST[39m /user/login
+1:00:52 AM [32mGET[39m /home.html
+1:00:52 AM [32mGET[39m /home.js
+1:00:52 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:02 AM [32mGET[39m /
+1:01:02 AM [32mGET[39m /style/my_board_style.css
+1:01:02 AM [32mGET[39m /index.js
+1:01:02 AM [32mGET[39m /home.html
+1:01:02 AM [32mGET[39m /home.js
+1:01:02 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:29 AM [32mGET[39m /
+1:01:29 AM [32mGET[39m /style/my_board_style.css
+1:01:29 AM [32mGET[39m /index.js
+1:01:29 AM [32mGET[39m /home.html
+1:01:29 AM [32mGET[39m /home.js
+1:01:29 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:36 AM [32mGET[39m /
+1:01:36 AM [32mGET[39m /style/my_board_style.css
+1:01:36 AM [32mGET[39m /index.js
+1:01:36 AM [32mGET[39m /home.html
+1:01:36 AM [32mGET[39m /home.js
+1:01:36 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:42 AM [33mPOST[39m /task
+Data :[object Object]
+Data inserted successfully: {"command":"INSERT","rowCount":1,"oid":0,"rows":[{"id":90,"title":"New Task","description":null,"deadline":null,"comment":null,"created":"01:01:42.391293","status":null,"creater":null,"userid":103}],"fields":[{"name":"id","tableID":16424,"columnID":1,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"title","tableID":16424,"columnID":3,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"description","tableID":16424,"columnID":4,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"deadline","tableID":16424,"columnID":5,"dataTypeID":1082,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"comment","tableID":16424,"columnID":6,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"created","tableID":16424,"columnID":7,"dataTypeID":1083,"dataTypeSize":8,"dataTypeModifier":-1,"format":"text"},{"name":"status","tableID":16424,"columnID":8,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"creater","tableID":16424,"columnID":9,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"userid","tableID":16424,"columnID":10,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"}],"_parsers":[null,null,null,null,null,null,null,null,null],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false,"_prebuiltEmptyResultObject":{"id":null,"title":null,"description":null,"deadline":null,"comment":null,"created":null,"status":null,"creater":null,"userid":null}}
+1:01:42 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:43 AM [33mPUT[39m /task/90
+Data :[object Object]
+Data Updated successfully: [object Object]
+1:01:43 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:44 AM [33mPUT[39m /task/90
+Data :[object Object]
+Data Updated successfully: [object Object]
+1:01:44 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:45 AM [31mDELETE[39m /task/80
+Data :[object Object]
+Data deleted {"command":"DELETE","rowCount":1,"oid":null,"rows":[{"id":80,"title":"New Task","description":"","deadline":null,"comment":null,"created":"19:29:59.376574","status":"done","creater":null,"userid":103}],"fields":[{"name":"id","tableID":16424,"columnID":1,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"title","tableID":16424,"columnID":3,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"description","tableID":16424,"columnID":4,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"deadline","tableID":16424,"columnID":5,"dataTypeID":1082,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"comment","tableID":16424,"columnID":6,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"created","tableID":16424,"columnID":7,"dataTypeID":1083,"dataTypeSize":8,"dataTypeModifier":-1,"format":"text"},{"name":"status","tableID":16424,"columnID":8,"dataTypeID":25,"dataTypeSize":-1,"dataTypeModifier":-1,"format":"text"},{"name":"creater","tableID":16424,"columnID":9,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"},{"name":"userid","tableID":16424,"columnID":10,"dataTypeID":23,"dataTypeSize":4,"dataTypeModifier":-1,"format":"text"}],"_parsers":[null,null,null,null,null,null,null,null,null],"_types":{"_types":{"arrayParser":{},"builtins":{"BOOL":16,"BYTEA":17,"CHAR":18,"INT8":20,"INT2":21,"INT4":23,"REGPROC":24,"TEXT":25,"OID":26,"TID":27,"XID":28,"CID":29,"JSON":114,"XML":142,"PG_NODE_TREE":194,"SMGR":210,"PATH":602,"POLYGON":604,"CIDR":650,"FLOAT4":700,"FLOAT8":701,"ABSTIME":702,"RELTIME":703,"TINTERVAL":704,"CIRCLE":718,"MACADDR8":774,"MONEY":790,"MACADDR":829,"INET":869,"ACLITEM":1033,"BPCHAR":1042,"VARCHAR":1043,"DATE":1082,"TIME":1083,"TIMESTAMP":1114,"TIMESTAMPTZ":1184,"INTERVAL":1186,"TIMETZ":1266,"BIT":1560,"VARBIT":1562,"NUMERIC":1700,"REFCURSOR":1790,"REGPROCEDURE":2202,"REGOPER":2203,"REGOPERATOR":2204,"REGCLASS":2205,"REGTYPE":2206,"UUID":2950,"TXID_SNAPSHOT":2970,"PG_LSN":3220,"PG_NDISTINCT":3361,"PG_DEPENDENCIES":3402,"TSVECTOR":3614,"TSQUERY":3615,"GTSVECTOR":3642,"REGCONFIG":3734,"REGDICTIONARY":3769,"JSONB":3802,"REGNAMESPACE":4089,"REGROLE":4096}},"text":{},"binary":{}},"RowCtor":null,"rowAsArray":false,"_prebuiltEmptyResultObject":{"id":null,"title":null,"description":null,"deadline":null,"comment":null,"created":null,"status":null,"creater":null,"userid":null}}
+1:01:45 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:47 AM [33mPUT[39m /task/81
+Data Updated successfully: [object Object]
+Data :[object Object]
+1:01:47 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:49 AM [32mGET[39m /profile.html
+1:01:49 AM [32mGET[39m /profile.js
+1:01:49 AM [32mGET[39m /style/profile.css
+1:01:49 AM [32mGET[39m /user/
+1:01:51 AM [32mGET[39m /
+1:01:52 AM [32mGET[39m /style/my_board_style.css
+1:01:52 AM [32mGET[39m /index.js
+1:01:52 AM [32mGET[39m /home.html
+1:01:52 AM [32mGET[39m /home.js
+1:01:52 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:01:53 AM [32mGET[39m /profile.html
+1:01:53 AM [32mGET[39m /style/profile.css
+1:01:53 AM [32mGET[39m /profile.js
+1:01:53 AM [32mGET[39m /user/
+1:01:57 AM [32mGET[39m /profile.html
+1:01:57 AM [32mGET[39m /style/profile.css
+1:02:25 AM [32mGET[39m /
+1:02:25 AM [32mGET[39m /style/my_board_style.css
+1:02:25 AM [32mGET[39m /index.js
+1:02:25 AM [32mGET[39m /home.html
+1:02:25 AM [32mGET[39m /home.js
+1:02:25 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:02:27 AM [32mGET[39m /
+1:02:27 AM [32mGET[39m /style/my_board_style.css
+1:02:27 AM [32mGET[39m /index.js
+1:02:27 AM [32mGET[39m /home.html
+1:02:27 AM [32mGET[39m /home.js
+1:02:27 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:02:39 AM [32mGET[39m /style/my_board_style.css
+1:05:32 AM [32mGET[39m /
+1:05:32 AM [32mGET[39m /style/my_board_style.css
+1:05:32 AM [32mGET[39m /index.js
+1:05:32 AM [32mGET[39m /style/bootstrap/scss/bootstrap
+1:05:32 AM [32mGET[39m /home.html
+1:05:32 AM [32mGET[39m /home.js
+1:05:32 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:06:26 AM [32mGET[39m /
+1:06:26 AM [32mGET[39m /style/my_board_style.css
+1:06:26 AM [32mGET[39m /index.js
+1:06:26 AM [32mGET[39m /style/bootstrap/scss/bootstrap
+1:06:26 AM [32mGET[39m /home.html
+1:06:26 AM [32mGET[39m /home.js
+1:06:26 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:06:29 AM [32mGET[39m /
+1:06:29 AM [32mGET[39m /style/my_board_style.css
+1:06:29 AM [32mGET[39m /index.js
+1:06:29 AM [32mGET[39m /style/bootstrap/scss/bootstrap
+1:06:29 AM [32mGET[39m /home.html
+1:06:29 AM [32mGET[39m /home.js
+1:06:29 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:06:40 AM [32mGET[39m /
+1:06:40 AM [32mGET[39m /style/my_board_style.css
+1:06:40 AM [32mGET[39m /index.js
+1:06:40 AM [32mGET[39m /home.html
+1:06:40 AM [32mGET[39m /home.js
+1:06:40 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:06:46 AM [32mGET[39m /
+1:06:46 AM [32mGET[39m /style/my_board_style.css
+1:06:46 AM [32mGET[39m /index.js
+1:06:46 AM [32mGET[39m /home.html
+1:06:46 AM [32mGET[39m /home.js
+1:06:46 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:06:48 AM [32mGET[39m /
+1:06:48 AM [32mGET[39m /style/my_board_style.css
+1:06:48 AM [32mGET[39m /index.js
+1:06:48 AM [32mGET[39m /home.html
+1:06:48 AM [32mGET[39m /home.js
+1:06:48 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:07:08 AM [32mGET[39m /
+1:07:08 AM [32mGET[39m /style/my_board_style.css
+1:07:08 AM [32mGET[39m /index.js
+1:07:08 AM [32mGET[39m /home.html
+1:07:08 AM [32mGET[39m /home.js
+1:07:08 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+1:07:29 AM [32mGET[39m /
+1:07:29 AM [32mGET[39m /style/my_board_style.css
+1:07:29 AM [32mGET[39m /index.js
+1:07:29 AM [32mGET[39m /home.html
+1:07:29 AM [32mGET[39m /home.js
+1:07:29 AM [32mGET[39m /task
+Get My tasks
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+Data :[object Object]
+11:11:54 AM [32mGET[39m /
+11:11:54 AM [32mGET[39m /style/my_board_style.css
+11:11:54 AM [32mGET[39m /index.js
+11:11:54 AM [32mGET[39m /home.html
+11:11:54 AM [32mGET[39m /home.js
+11:11:54 AM [32mGET[39m /task
+Get My tasks
+11:11:54 AM [32mGET[39m /favicon.ico
+11:11:58 AM [32mGET[39m /profile.html
+11:11:58 AM [32mGET[39m /style/profile.css
+11:11:58 AM [32mGET[39m /profile.js
+11:11:58 AM [32mGET[39m /user/
+9:19:29 PM [32mGET[39m /
+9:19:29 PM [32mGET[39m /style/my_board_style.css
+9:19:29 PM [32mGET[39m /index.js
+9:19:29 PM [32mGET[39m /home.html
+9:19:29 PM [32mGET[39m /home.js
+9:19:29 PM [32mGET[39m /task
+Get My tasks
+9:19:30 PM [32mGET[39m /favicon.ico
+9:19:42 PM [33mPOST[39m /task
+9:19:52 PM [32mGET[39m /
+9:19:52 PM [32mGET[39m /style/my_board_style.css
+9:19:52 PM [32mGET[39m /index.js
+9:19:52 PM [32mGET[39m /home.html
+9:19:52 PM [32mGET[39m /home.js
+9:19:52 PM [32mGET[39m /task
+Get My tasks
+9:19:55 PM [32mGET[39m /profile.html
+9:19:55 PM [32mGET[39m /style/profile.css
+9:19:55 PM [32mGET[39m /profile.js
+9:19:55 PM [32mGET[39m /user/
+9:19:59 PM [33mPUT[39m /user
+9:20:04 PM [31mDELETE[39m /user
+9:20:09 PM [32mGET[39m /
+9:20:09 PM [32mGET[39m /style/my_board_style.css
+9:20:09 PM [32mGET[39m /index.js
+9:20:09 PM [32mGET[39m /home.html
+9:20:09 PM [32mGET[39m /home.js
+9:20:09 PM [32mGET[39m /task
+Get My tasks
+9:20:11 PM [32mGET[39m /profile.html
+9:20:11 PM [32mGET[39m /style/profile.css
+9:20:11 PM [32mGET[39m /profile.js
+9:20:11 PM [32mGET[39m /user/
+9:20:12 PM [32mGET[39m /login.html
+9:20:12 PM [32mGET[39m /style/login_register.css
+9:20:12 PM [32mGET[39m /login.js
+9:20:14 PM [32mGET[39m /register.html
+9:20:14 PM [32mGET[39m /register.js
+9:20:14 PM [32mGET[39m /style/login_register.css
+9:20:20 PM [32mGET[39m /
+9:20:20 PM [32mGET[39m /style/my_board_style.css
+9:20:20 PM [32mGET[39m /index.js
+9:20:20 PM [32mGET[39m /login.html
+9:20:20 PM [32mGET[39m /style/login_register.css
+9:20:20 PM [32mGET[39m /login.js
+9:20:21 PM [32mGET[39m /
+9:20:21 PM [32mGET[39m /style/my_board_style.css
+9:20:21 PM [32mGET[39m /index.js
+9:20:21 PM [32mGET[39m /login.html
+9:20:21 PM [32mGET[39m /style/login_register.css
+9:20:21 PM [32mGET[39m /login.js
+9:20:23 PM [32mGET[39m /
+9:20:23 PM [32mGET[39m /style/my_board_style.css
+9:20:23 PM [32mGET[39m /index.js
+9:20:23 PM [32mGET[39m /login.html
+9:20:23 PM [32mGET[39m /style/login_register.css
+9:20:23 PM [32mGET[39m /login.js

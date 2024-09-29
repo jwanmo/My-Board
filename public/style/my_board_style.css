@@ -330,12 +330,21 @@ span {
   background-color: #0056b3;
 }
 
-@media (max-width: 767px) {
-  .box-column {
-    flex-basis: calc(50% - 20px);
-    max-width: calc(50% - 20px);
-  }
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
 
+  #content {
+    display: block;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box-column {
+    flex-basis: calc(30% - 10px);
+    max-width: calc(30% - 10px);
+  }
   .header,
   .footer {
     padding: 5px;
